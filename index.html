@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>Frontend Mentor | Interactive rating component</title>
+</head>
+
+<body>
+
+  <div id="masterDiv">
+
+    <div id="ratingState">
+
+      <button id="star" type="button" name="button"><img src="images/icon-star.svg" alt="icon-star"></button>
+
+      <h1>How did we do?</h1>
+
+      <p>Please let us know how we did with your support request. All feedback is appreciated
+        to help us improve our offering!</p>
+
+
+      <div id="numbers">
+        <button class="numberButton" type="button" name="button">1</button>
+        <button class="numberButton" type="button" name="button">2</button>
+        <button class="numberButton" type="button" name="button">3</button>
+        <button class="numberButton" type="button" name="button">4</button>
+        <button class="numberButton" type="button" name="button">5</button>
+      </div>
+      <button id="submitButton" type="button" name="button">SUBMIT</button>
+    </div>
+
+
+    <div hidden id="thankyouState">
+
+
+      <img id="thankyouIMG" src="images/illustration-thank-you.svg" alt="">
+
+
+
+      <p id="youSelected">You selected <span id="userSubmittedRating">?</span>
+        out of 5
+      </p>
+
+      <h2>Thank you!</h2>
+
+      <p>We appreciate you taking the time to give a rating. If you ever need more support,
+        don’t hesitate to get in touch!</p>
+
+      <!-- Thank you state end -->
+    </div>
+
+
+
+
+  </div>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<script src="index.js" charset="utf-8"></script>
+
+</script>
+
+</html>

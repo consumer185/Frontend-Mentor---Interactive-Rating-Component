@@ -1,0 +1,98 @@
+body {
+  background-color: #141519;
+}
+
+h1, h2 {
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+}
+
+p {
+  color: hsl(217, 12%, 63%);
+}
+
+#masterDiv {
+  width: 412px;
+  height: 418px;
+  font-family: Overpass;
+  margin: auto;
+}
+
+#ratingState, #thankyouState {
+  border-radius: 25px;
+  background-image: linear-gradient(#222931, #1a1f25);
+  padding: 30px;
+  line-height: 1.5rem;
+}
+
+#star {
+  border-radius: 50px;
+  width: 45px;
+  height: 45px;
+  border: none;
+  background-color: #272f32;
+}
+
+#numbers {
+  padding: 20px 0 35px;
+  display: flex;
+    justify-content: space-between;
+}
+
+.numberButton {
+  font-family: Overpass;
+  font-weight: 700;
+  color: hsl(216, 12%, 54%);
+  background-color: #262f38;
+  border-radius: 50px;
+  width: 45px;
+  height: 45px;
+  border: none;
+  cursor: pointer;
+  margin: auto;
+}
+
+.numberButton:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+}
+
+.numberButton:focus {
+  background-color: #7c8898;
+  color: white;
+}
+
+#submitButton {
+  color: white;
+  font-family: Overpass;
+  background-color: hsl(25, 97%, 53%);
+  border-radius: 25px;
+  border: none;
+  height: 45px;
+  font-weight: 700;
+  width: 100%;
+}
+
+#submitButton:hover {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+  cursor: pointer;
+}
+
+#youSelected {
+  color: hsl(25, 97%, 53%);
+  text-align: center;
+  background-color: #262f38;
+  border-radius: 25px;
+  width: 50%;
+  margin: auto;
+  padding: 3px;
+}
+
+#thankyouState {
+  text-align: center;
+}
+
+#thankyouIMG {
+  padding: 25px 0;
+}
